@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golazo</title>
+
+  <!-- Open Graph Meta Tags for Messenger Preview -->
+  <meta property="og:title" content="Golazo - Football Hub" />
+  <meta property="og:description" content="Kick off with a modern football themed site, powered by GitHub Pages." />
+  <meta property="og:url" content="https://jontherookie.github.io/static_site_3/" />
+  <meta property="og:image" content="https://jontherookie.github.io/static_site_3/preview.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Modern Style: Bootstrap for quick layout -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #00ff88;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+    .btn-custom {
+      background-color: #00ff88;
+      color: #000;
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 10px 25px;
+      text-transform: uppercase;
+    }
+    .card {
+      background-color: rgba(255,255,255,0.1);
+      border: none;
+      border-radius: 12px;
+    }
+    .card img {
+      border-radius: 12px 12px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>⚽ Golazo</h1>
+    <p>Your modern football hub — news, stats, and passion for the beautiful game.</p>
+    <a href="#matches" class="btn btn-custom">Explore Matches</a>
+  </section>
+
+  <!-- Sample Cards Section -->
+  <div class="container my-5" id="matches">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/match1.jpg" class="card-img-top" alt="Match 1">
+          <div class="card-body">
+            <h5 class="card-title">Champions League</h5>
+            <p class="card-text">Latest updates from Europe’s biggest stage.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/match2.jpg" class="card-img-top" alt="Match 2">
+          <div class="card-body">
+            <h5 class="card-title">Premier League</h5>
+            <p class="card-text">Highlights and fixtures from England’s top flight.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/match3.jpg" class="card-img-top" alt="Match 3">
+          <div class="card-body">
+            <h5 class="card-title">World Cup</h5>
+            <p class="card-text">Relive the greatest moments in football history.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2026 Golazo | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>
